@@ -155,7 +155,7 @@ const Contact = () => {
                     <option value="fabrication">Fabrication Services</option>
                     <option value="piping">Piping Solutions</option>
                     <option value="maintenance">Equipment Maintenance</option>
-                    <option value="aarakshan">Aarakshan Services</option>
+                    <option value="aarakshan">PEB Erection Installtion</option>
                     <option value="other">Other</option>
                   </select>
                 </div>

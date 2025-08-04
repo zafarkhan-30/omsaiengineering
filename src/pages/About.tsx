@@ -56,10 +56,10 @@ const About = () => {
   ];
 
   const milestones = [
-    { year: "2015", event: "Company Founded", description: "OM SAI ENGINEERING established in Kalyan, Thane" },
-    { year: "2018", event: "Service Expansion", description: "Expanded services to include comprehensive piping solutions" },
-    { year: "2021", event: "Major Projects", description: "Completed numerous successful structural and fabrication projects" },
-    { year: "2024", event: "Regional Leader", description: "Recognized as leading engineering service provider in Maharashtra" }
+    { year: "2010", event: "Company Founded", description: "OM SAI ENGINEERING established in Kalyan, Thane" },
+    { year: "2015", event: "Service Expansion", description: "Expanded services to include comprehensive piping solutions" },
+    { year: "2018", event: "Major Projects", description: "Completed numerous successful structural and fabrication projects" },
+    // { year: "2020", event: "Regional Leader", description: "Recognized as leading engineering service provider in Maharashtra" }
   ];
 
   return (

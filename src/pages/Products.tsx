@@ -51,10 +51,10 @@ const Products = () => {
     },
     {
       id: 5,
-      title: "Aarakshan Services",
+      title:"PEB Erection Installtion",
       category: "structural",
       image: "https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=800",
-      description: "Specialized Aarakshan services for industrial applications",
+      description: "Specialized services for industrial applications",
       features: ["Custom solutions", "Technical expertise", "Quality assurance", "Timely delivery"],
       applications: ["Industrial projects", "Commercial applications", "Specialized requirements", "Custom installations"]
     },
