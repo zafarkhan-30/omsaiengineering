@@ -44,11 +44,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><span className="text-gray-400">Structural Engineering</span></li>
-              <li><span className="text-gray-400">Fabrication Services</span></li>
-              <li><span className="text-gray-400">Piping Solutions</span></li>
-              <li><span className="text-gray-400">Plant Equipment Maintenance</span></li>
-              <li><span className="text-gray-400">Aarakshan Services</span></li>
+              <li><span className="text-gray-400">Industrial Shed Fabrication</span></li>
+              <li><span className="text-gray-400">Warehouse Structure Development</span></li>
+              <li><span className="text-gray-400">Factory Shed Construction</span></li>
+              <li><span className="text-gray-400">PEB Mezzanine Floor Fabrication</span></li>
+              <li><span className="text-gray-400">Site Welding & Assembly Work</span></li>
             </ul>
           </div>
 

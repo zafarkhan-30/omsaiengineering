@@ -3,9 +3,9 @@ import { Shield, Award, CheckCircle, Settings, Users, FileText, ChevronLeft, Che
 
 const Quality = () => {
   const qualityImages = [
-    "/static/pre-engineered-multi-storey-buildings-2-scaled.webp",
-    "/static/Chemical-Plant-Steel-Structure.jpg",
-    "/static/project_photo_1.jpg"
+    "/static/Main_page2.jpg"
+  //   "/static/Chemical-Plant-Steel-Structure.jpg",
+  //   "/static/project_photo_1.jpg"
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -41,11 +41,11 @@ const Quality = () => {
       description: "Code of Practice for General Construction",
       icon: <FileText className="h-8 w-8 text-yellow-500" />
     },
-    {
-      title: "AISC Standards",
-      description: "American Institute of Steel Construction",
-      icon: <Settings className="h-8 w-8 text-yellow-500" />
-    }
+    // {
+    //   title: "AISC Standards",
+    //   description: "American Institute of Steel Construction",
+    //   icon: <Settings className="h-8 w-8 text-yellow-500" />
+    // }
   ];
 
   const qualityFeatures = [
@@ -54,16 +54,16 @@ const Quality = () => {
       description: "Advanced 3D modeling and structural analysis using latest CAD software",
       points: ["STAAD Pro analysis", "Tekla Structures modeling", "Wind and seismic design", "Load optimization"]
     },
-    {
-      title: "Material Quality",
-      description: "Premium grade steel and components sourced from certified suppliers",
-      points: ["IS 2062 grade steel", "Galvanized coatings", "Weather-resistant paints", "Quality test certificates"]
-    },
-    {
-      title: "Manufacturing Process",
-      description: "State-of-the-art fabrication facilities with precision equipment",
-      points: ["CNC cutting machines", "Automated welding", "Shot blasting facility", "Dimensional accuracy checks"]
-    },
+    // {
+    //   title: "Material Quality",
+    //   description: "Premium grade steel and components sourced from certified suppliers",
+    //   points: ["IS 2062 grade steel", "Galvanized coatings", "Weather-resistant paints", "Quality test certificates"]
+    // },
+    // {
+    //   title: "Manufacturing Process",
+    //   description: "State-of-the-art fabrication facilities with precision equipment",
+    //   points: ["CNC cutting machines", "Automated welding", "Shot blasting facility", "Dimensional accuracy checks"]
+    // },
     {
       title: "Installation Standards",
       description: "Experienced installation teams following international best practices",
@@ -221,8 +221,7 @@ const Quality = () => {
               Our commitment to quality is validated by international certifications
             </p>
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
             {certifications.map((cert, index) => (
               <div
                 key={index}

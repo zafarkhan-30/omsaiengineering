@@ -31,15 +31,15 @@ const Home = () => {
          "/static/Featured Projects4.jpg"]
     },
     {
-      title: "Piping System Installation",
-      location: "Thane, Maharashtra",
-      area: "Complex Network",
-      images: ["/static/Featured Projects5.jpg", "/static/Media.jpg"]
+      title: "Metro Station",
+      location: "Mankhur, Mumbai",
+      area: "Structrue Work Plant",
+      images: ["/static/Featured Projects5.jpg", "/static/Featured Projects_2.jpg"]
     },
     {
-      title: "Equipment Maintenance",
-      location: "Dombivli, Maharashtra",
-      area: "Plant Facility",
+      title: "Mezzanine Structrue Building",
+      location: "Dholera, Ahmedabad",
+      area: "TATA Semiconductor Office",
       images: ["/static/Featured Projects6.jpg"]
     }
   ];
@@ -70,13 +70,13 @@ const Home = () => {
     {
       name: "Amit Desai",
       role: "Maintenance Head, Manufacturing Unit",
-      content: "Outstanding fabrication and maintenance services that exceeded our expectations.",
+      content: "Very professional and efficient team. The structural shed for my roadside shop was done exactly as per our requirements. Clean finishing and good communication throughout the work. Will definitely work with them again.",
       rating: 5
     },
     {
-      name: "Ravi Joshi",
+      name: "Amit Roy, Asansol",
       role: "Project Director, Industrial Complex",
-      content: "Professional piping solutions, quality work, and timely delivery. Highly recommended.",
+      content: "Highly recommend for structural shed fabrication. The welding quality, finishing, and alignment of the steel structure was excellent. They followed safety practices too, which was a big plus.",
       rating: 5
     }
   ];
@@ -186,7 +186,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-yellow-500 mb-2">500+</div>
+              <div className="text-4xl md:text-5xl font-bold text-yellow-500 mb-2">100+</div>
               <div className="text-gray-600">Projects Completed</div>
             </div>
             <div className="text-center">
