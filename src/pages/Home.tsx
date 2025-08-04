@@ -26,19 +26,21 @@ const Home = () => {
       title: "Industrial Plant Structure",
       location: "Kalyan, Maharashtra",
       area: "25,000 sq ft",
-      images: ["/Chemical-Plant-Steel-Structure.jpg", "/pre-engineered-multi-storey-buildings-2-scaled.webp", "/Featured Projects4.jpg"]
+      images: ["/static/Chemical-Plant-Steel-Structure.jpg", 
+        "/static/pre-engineered-multi-storey-buildings-2-scaled.webp",
+         "/static/Featured Projects4.jpg"]
     },
     {
       title: "Piping System Installation",
       location: "Thane, Maharashtra",
       area: "Complex Network",
-      images: ["/Featured Projects5.jpg", "/Media.jpg"]
+      images: ["/static/Featured Projects5.jpg", "/static/Media.jpg"]
     },
     {
       title: "Equipment Maintenance",
       location: "Dombivli, Maharashtra",
       area: "Plant Facility",
-      images: ["/Featured Projects6.jpg"]
+      images: ["/static/Featured Projects6.jpg"]
     }
   ];
 
@@ -87,7 +89,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url("/Main_page.jpeg")',
+            backgroundImage: 'url("/static/Main_page.jpeg")',
           }}
         />
         <div className="absolute inset-0 bg-black/60"></div>

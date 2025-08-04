@@ -62,7 +62,7 @@ const Header = () => {
               <Link to="/" className="flex items-center">
                 <div className="flex items-center">
                   <img 
-                    src="/OMSAI_logo.png" 
+                    src="/static/OMSAI_logo.png" 
                     alt="OM SAI ENGINEERING Logo" 
                     className="h-20 w-20 mr-2"
                   />

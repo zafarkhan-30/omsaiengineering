@@ -3,11 +3,11 @@ import { CheckCircle, Users, Target, Award, Building, Zap, Shield } from 'lucide
 
 const About = () => {
   const journeyImages = [
-    "/Main_page.jpeg",
-    "/Chemical-Plant-Steel-Structure.jpg",
-    "/pre-engineered-multi-storey-buildings-2-scaled.webp",
-    "/project_photo_1.jpg",
-    "/Main_page2.jpg"
+    "/static/Main_page.jpeg",
+    "/static/Chemical-Plant-Steel-Structure.jpg",
+    "/static/pre-engineered-multi-storey-buildings-2-scaled.webp",
+    "/static/project_photo_1.jpg",
+    "/static/Main_page2.jpg"
   ];
 
   const [currentJourneyImage, setCurrentJourneyImage] = useState(0);
