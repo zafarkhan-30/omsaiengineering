@@ -3,9 +3,9 @@ import { Shield, Award, CheckCircle, Settings, Users, FileText, ChevronLeft, Che
 
 const Quality = () => {
   const qualityImages = [
-    "/static/pre-engineered-multi-storey-buildings-2-scaled.webp",
-    "/static/Chemical-Plant-Steel-Structure.jpg",
-    "/static/project_photo_1.jpg"
+    "/pre-engineered-multi-storey-buildings-2-scaled.webp",
+    "/Chemical-Plant-Steel-Structure.jpg",
+    "/project_photo_1.jpg"
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);

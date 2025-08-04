@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center">
               <img 
-                src="/static/OMSAI_logo.png" 
+                src="/OMSAI_logo.png" 
                 alt="OM SAI ENGINEERING Logo" 
                 className="h-12 w-12 mr-3"
               />
