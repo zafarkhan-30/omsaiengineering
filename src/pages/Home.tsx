@@ -26,7 +26,9 @@ const Home = () => {
       title: "Industrial Plant Structure",
       location: "Kalyan, Maharashtra",
       area: "25,000 sq ft",
-      images: ["/static/Chemical-Plant-Steel-Structure.jpg", "/static/pre-engineered-multi-storey-buildings-2-scaled.webp", "/static/Featured Projects4.jpg"]
+      images: ["/static/Chemical-Plant-Steel-Structure.jpg", 
+        "/static/pre-engineered-multi-storey-buildings-2-scaled.webp",
+         "/static/Featured Projects4.jpg"]
     },
     {
       title: "Piping System Installation",
