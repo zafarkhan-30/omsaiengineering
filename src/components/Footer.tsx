@@ -44,11 +44,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><span className="text-gray-400">Industrial Shed Fabrication</span></li>
-              <li><span className="text-gray-400">Warehouse Structure Development</span></li>
-              <li><span className="text-gray-400">Factory Shed Construction</span></li>
-              <li><span className="text-gray-400">PEB Mezzanine Floor Fabrication</span></li>
-              <li><span className="text-gray-400">Site Welding & Assembly Work</span></li>
+              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">Industrial Shed Fabrication</Link></li>
+              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">Warehouse Structure Development</Link></li>
+              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">Factory Shed Construction</Link></li>
+              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">PEB Mezzanine Floor Fabrication</Link></li>
+              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">Site Welding & Assembly Work</Link></li>
             </ul>
           </div>
 

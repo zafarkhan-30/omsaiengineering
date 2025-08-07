@@ -64,7 +64,7 @@ const Header = () => {
                   <img 
                     src="/static/OMSAI_logo.png" 
                     alt="OM SAI ENGINEERING Logo" 
-                    className="h-20 w-20 mr-2"
+                    className="h-20 w-20"
                   />
                   <div>
                     <div className="text-2xl font-bold text-gray-800">OM SAI ENGINEERING</div>

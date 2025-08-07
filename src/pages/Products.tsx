@@ -70,7 +70,7 @@ const Products = () => {
   ];
 
   const specifications = [
-    { title: "Service Area", value: "Maharashtra Region" },
+    { title: "Service Area", value: "All Over India" },
     { title: "Project Size", value: "Small to Large Scale" },
     { title: "Response Time", value: "24-48 Hours" },
     { title: "Quality Standards", value: "IS Codes Compliant" },
