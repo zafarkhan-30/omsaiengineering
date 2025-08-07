@@ -7,17 +7,17 @@ const Home = () => {
     {
       icon: <Zap className="h-8 w-8 text-yellow-500" />,
       title: "Quality",
-      description: "Superior quality in structural engineering and fabrication services"
+      description: "SUnmatched precision and durability in every pre-engineered building we fabricate and erect."
     },
     {
       icon: <Shield className="h-8 w-8 text-yellow-500" />,
       title: "Reliability",
-      description: "Dependable maintenance services for plant equipment and piping systems"
+      description: "On-time project delivery with consistent performance across design, fabrication,and installation phases."
     },
     {
       icon: <Building className="h-8 w-8 text-yellow-500" />,
       title: "Experience",
-      description: "Extensive experience in structural, fabrication, and piping solutions"
+      description: "Proven track record in delivering industrial, commercial, and warehouse PEB projects across Maharashtra."
     }
   ];
 
@@ -95,17 +95,17 @@ const Home = () => {
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
-            STRUCTURAL ENGINEERING
+            FAST-TRACK STEEL STRUCTURES
             <span className="block text-yellow-400">
-              EXCELLENCE THROUGH
+              ENGINEERED FOR PERFORMANCE,
             </span>
             <span className="block text-yellow-400">
               QUALITY & PRECISION.
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-4xl mx-auto leading-relaxed">
-            Leading provider of structural, fabrication, and piping plant equipment 
-            maintenance services in Maharashtra, delivering comprehensive engineering solutions.
+            End-to-end PEB construction contractor delivering customized, durable, and costefficient
+            building solutions across Maharashtra.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -119,7 +119,7 @@ const Home = () => {
               to="/products"
               className="inline-flex items-center px-8 py-4 border-2 border-white text-white font-semibold hover:bg-white hover:text-gray-900 transition-all duration-200 transform hover:scale-105"
             >
-              VIEW PRODUCTS
+              VIEW SERVICES
             </Link>
           </div>
         </div>
@@ -133,7 +133,8 @@ const Home = () => {
               Why Choose OM SAI ENGINEERING
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Leading the industry with comprehensive structural and fabrication solutions
+              Your trusted partner for complete PEB solutions—from design and fabrication to onsite
+              erection with uncompromised quality and safety standards.
             </p>
           </div>
           

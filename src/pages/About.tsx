@@ -216,7 +216,7 @@ const About = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center max-w-4xl mx-auto">
             {milestones.map((milestone, index) => (
               <div
                 key={index}
@@ -279,7 +279,7 @@ const About = () => {
             Partner With Us
           </h2>
           <p className="text-xl text-gray-800 mb-8 max-w-2xl mx-auto">
-            Experience the Aragon difference in your next construction project
+            Experience the OM SAI ENGINEERING difference in your next construction project.
           </p>
           <a
             href="/contact"
