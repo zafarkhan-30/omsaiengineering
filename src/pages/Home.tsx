@@ -7,7 +7,7 @@ const Home = () => {
     {
       icon: <Zap className="h-8 w-8 text-yellow-500" />,
       title: "Quality",
-      description: "SUnmatched precision and durability in every pre-engineered building we fabricate and erect."
+      description: "Unmatched precision and durability in every pre-engineered building we fabricate and erect."
     },
     {
       icon: <Shield className="h-8 w-8 text-yellow-500" />,
