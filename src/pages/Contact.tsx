@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, Send, Building } from 'lucide-react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -20,8 +21,30 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
+    
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      phone: formData.phone,
+      company: formData.company || 'N/A',
+      project_type: formData.projectType || 'General Inquiry',
+      message: formData.message,
+      to_email: 'jafarkhan9892@gmail.com'
+    };
+
+    emailjs.send(
+      'service_ub9lrtb',
+      'template_7uyk40f', 
+      templateParams,
+      'rMqq4lMnMKY1ev37Y'
+    )
+    .then(() => {
+      alert('Email sent successfully!');
+      setFormData({ name: '', email: '', phone: '', company: '', projectType: '', message: '' });
+    })
+    .catch(() => {
+      alert('Failed to send email. Please try again.');
+    });
   };
 
   const offices = [

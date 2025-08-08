@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <>
       {/* Top Social Bar */}
-      <div className="bg-gray-800 text-white py-2">
+      <div className="bg-gray-800 text-white py-2 hidden md:block">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
             <div className="flex space-x-4 text-sm">
@@ -57,18 +57,18 @@ const Header = () => {
         scrolled ? 'bg-white shadow-lg fixed' : 'bg-white relative'
       }`}>
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-20">
+          <div className="flex justify-between items-center h-16 md:h-20">
             <div className="flex-shrink-0">
               <Link to="/" className="flex items-center">
                 <div className="flex items-center">
                   <img 
                     src="/static/OMSAI_logo.png" 
                     alt="OM SAI ENGINEERING Logo" 
-                    className="h-20 w-20"
+                    className="h-12 w-12 md:h-20 md:w-20 mr-1"
                   />
                   <div>
-                    <div className="text-2xl font-bold text-gray-800">OM SAI ENGINEERING</div>
-                    <div className="text-xs text-gray-600 -mt-1">STRUCTURAL, FABRICATION & PIPING SOLUTIONS</div>
+                    <div className="text-sm md:text-2xl font-bold text-gray-800">OM SAI ENGINEERING</div>
+                    <div className="text-xs text-gray-600 -mt-1 hidden sm:block">STRUCTURAL, FABRICATION & PIPING SOLUTIONS</div>
                   </div>
                 </div>
               </Link>
