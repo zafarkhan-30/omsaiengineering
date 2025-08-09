@@ -44,11 +44,12 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">Industrial Shed Fabrication</Link></li>
-              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">Warehouse Structure Development</Link></li>
-              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">Factory Shed Construction</Link></li>
-              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">PEB Mezzanine Floor Fabrication</Link></li>
-              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">Site Welding & Assembly Work</Link></li>
+              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">Structural Engineering Services</Link></li>
+              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">Fabrication Services</Link></li>
+              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">Piping Solutions</Link></li>
+              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">Plant Equipment Maintenance</Link></li>
+              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">PEB Erection Installtion</Link></li>
+              <li><Link to="/products" className="text-gray-400 hover:text-blue-600 cursor-pointer">Custom Engineering Solutions</Link></li>
             </ul>
           </div>
 
