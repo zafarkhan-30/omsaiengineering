@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center">
-              <img 
-                src="/static/OMSAI_logo.png" 
-                alt="OM SAI ENGINEERING Logo" 
+              <img
+                src="/static/OMSAI_logo.png"
+                alt="OM SAI ENGINEERING Logo"
                 className="h-12 w-12 mr-3"
               />
               <div>
@@ -20,7 +20,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Leading provider of structural, fabrication, and piping plant equipment 
+              Leading provider of structural, fabrication, and piping plant equipment
               maintenance services in Maharashtra, delivering quality engineering solutions.
             </p>
             <div className="flex space-x-4">
@@ -58,12 +58,24 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-yellow-400" />
-                <span className="text-gray-400">info@omsaiengineering.com</span>
+                <a
+                  href="mailto:info@omsaiengineering.com"
+                  className="text-gray-400 hover:text-yellow-400 transition-colors"
+                >
+                  info@omsaiengineering.com
+                </a>
               </div>
+
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-yellow-400" />
-                <span className="text-gray-400">+91 958860 1820</span>
+                <a
+                  href="tel:+919588601820"
+                  className="text-gray-400 hover:text-yellow-400 transition-colors"
+                >
+                  +91 958860 1820
+                </a>
               </div>
+
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-yellow-400" />
                 <span className="text-gray-400">Kalyan, Thane, Maharashtra</span>
