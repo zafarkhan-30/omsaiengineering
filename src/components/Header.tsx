@@ -33,7 +33,10 @@ const Header = () => {
               <a href="mailto:info@omsaiengineering.com" className="hover:text-yellow-400 transition-colors">
                 info@omsaiengineering.com
               </a>
-              <a  className="hover:text-yellow-400 transition-colors">
+              <a 
+                href="tel:+919588601820" 
+                className="hover:text-yellow-400 transition-colors"
+              >
                 +91 958860 1820
               </a>
             </div>
