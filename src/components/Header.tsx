@@ -34,7 +34,7 @@ const Header = () => {
                 info@omsaiengineering.com
               </a>
               <a  className="hover:text-yellow-400 transition-colors">
-                +91 98765 43210
+                +91 958860 1820
               </a>
             </div>
             <div className="flex space-x-3">
