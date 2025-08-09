@@ -17,7 +17,7 @@ const Products = () => {
       id: 1,
       title: "Structural Engineering Services",
       category: "structural",
-      image: "https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://static.vecteezy.com/system/resources/thumbnails/059/581/349/small/modern-building-under-construction-with-steel-structure-and-blue-sky-photo.jpg",
       description: "Comprehensive structural engineering solutions for industrial and commercial projects",
       features: ["Structural design", "Load calculations", "Foundation design", "Steel structure analysis"],
       applications: ["Industrial plants", "Commercial buildings", "Warehouses", "Manufacturing units"]
@@ -26,7 +26,7 @@ const Products = () => {
       id: 2,
       title: "Fabrication Services",
       category: "fabrication",
-      image: "https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://blog.novatr.com/hs-fs/hubfs/types_of_fabrication.png?width=1200&name=types_of_fabrication.png",
       description: "Professional fabrication services for steel structures and components",
       features: ["Steel fabrication", "Welding services", "Custom components", "Quality finishing"],
       applications: ["Structural components", "Industrial equipment", "Custom metalwork", "Plant installations"]
@@ -35,7 +35,7 @@ const Products = () => {
       id: 3,
       title: "Piping Solutions",
       category: "piping",
-      image: "https://images.pexels.com/photos/2144326/pexels-photo-2144326.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://rcenggstudios.com/wp-content/uploads/2024/04/PipeRack.jpg",
       description: "Complete piping solutions for industrial and commercial applications",
       features: ["Piping design", "Installation services", "System integration", "Pressure testing"],
       applications: ["Process plants", "Utility systems", "Industrial piping", "Commercial installations"]
@@ -44,7 +44,7 @@ const Products = () => {
       id: 4,
       title: "Plant Equipment Maintenance",
       category: "maintenance",
-      image: "https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://static.vecteezy.com/system/resources/thumbnails/022/862/309/small/sea-water-intake-pump-equipment-on-power-plant-project-the-is-suitable-to-use-for-industry-backgroundgraphy-power-plant-poster-and-electricity-content-media-free-photo.jpg",
       description: "Comprehensive maintenance services for industrial plant equipment",
       features: ["Preventive maintenance", "Equipment repair", "System upgrades", "Emergency services"],
       applications: ["Manufacturing plants", "Process equipment", "Industrial machinery", "Utility systems"]
@@ -53,7 +53,7 @@ const Products = () => {
       id: 5,
       title:"PEB Erection Installtion",
       category: "structural",
-      image: "https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://4.imimg.com/data4/KN/PN/MY-4216678/peb-structure-erection-500x500.jpeg",
       description: "Specialized services for industrial applications",
       features: ["Custom solutions", "Technical expertise", "Quality assurance", "Timely delivery"],
       applications: ["Industrial projects", "Commercial applications", "Specialized requirements", "Custom installations"]
@@ -62,7 +62,7 @@ const Products = () => {
       id: 6,
       title: "Custom Engineering Solutions",
       category: "fabrication",
-      image: "https://images.pexels.com/photos/2144326/pexels-photo-2144326.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://www.thorntontomasetti.com/sites/default/files/styles/optimize/public/2020-01/ce_grid_4.jpg?itok=Bf-Pwm0F",
       description: "Tailored engineering solutions for unique project requirements",
       features: ["Custom design", "Engineering analysis", "Project management", "Quality control"],
       applications: ["Specialized projects", "Unique requirements", "Complex installations", "Custom applications"]
